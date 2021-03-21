@@ -139,19 +139,19 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\downloads\elevate-1.3.0-redist\src\elevate.c" />
+    <ClCompile Include="src\elevate.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\downloads\elevate-1.3.0-redist\src\libs\SimpleString.h" />
-    <ClInclude Include="..\..\..\downloads\elevate-1.3.0-redist\src\libs\StringIntrinsics.h" />
-    <ClInclude Include="..\..\..\downloads\elevate-1.3.0-redist\src\resource.h" />
-    <ClInclude Include="..\..\..\downloads\elevate-1.3.0-redist\src\version.h" />
+    <ClInclude Include="src\libs\SimpleString.h" />
+    <ClInclude Include="src\libs\StringIntrinsics.h" />
+    <ClInclude Include="src\resource.h" />
+    <ClInclude Include="src\version.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\..\..\downloads\elevate-1.3.0-redist\src\elevate.rc" />
+    <ResourceCompile Include="src\elevate.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Manifest Include="..\..\..\downloads\elevate-1.3.0-redist\src\elevate.manifest" />
+    <Manifest Include="src\elevate.manifest" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
