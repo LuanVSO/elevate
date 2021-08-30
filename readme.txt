@@ -1,3 +1,6 @@
+i only changed the build system to sln instead of nmake files and fixed a non-ascii printing bug.
+following is the original read me file and original source
+
 Command-Line UAC Elevation Utility
 Version 1.3
 <http://code.kliu.org/misc/elevate/>
